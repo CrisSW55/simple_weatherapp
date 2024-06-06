@@ -55,7 +55,7 @@ export default function HomeScreen() {
   // state to hold location
   //const [location, setLocation] = useState(false);
   const [location, setLocation] = useState({});
-  const [weatherData, setWeatherData] = useState();
+  const [weatherData, setWeatherData] = useState(null);
   const [loaded, setLoaded] = useState(true);
   const [errorMsg, setErrorMsg] = useState("");
   const [tempUnit,setTempUnit] = useState("");
