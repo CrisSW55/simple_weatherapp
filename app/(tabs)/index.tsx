@@ -18,7 +18,7 @@ import { Platform, Text, View, StyleSheet } from "react-native";
  
 import * as Location from "expo-location";
 
-const API_KEY  = "d01d6de9a51e8661a4d9d61c12a89372";
+const API_KEY  = "Your API key";
 
 const API_call =  "https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
 
